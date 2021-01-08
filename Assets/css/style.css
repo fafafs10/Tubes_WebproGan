@@ -1,0 +1,531 @@
+/* 
+.navbar { 
+    background-color: black;
+    color: white !important;
+}
+
+.navbar .dropup {
+    
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+*/
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Navbar */
+    .navbar { 
+        background-color: black;
+        color: white !important;
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+
+    .navbar .dropdown .nav-link:hover {
+        border-bottom: 3px solid blue;
+        margin-bottom: -3px;
+    }
+
+    .navbar .navbar-nav .nav-item:hover .dropdown-menu, .navbar .collapse .nav-item:hover .dropdown-menu {
+        display: block;
+  }
+
+    .nav-link {
+        margin-right: 2px;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .dropdown-item {
+        font-size: 11px;
+        color: #616561;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu li .di-title {
+        font-size: 13px;
+        color: #5d58f5;
+        font-weight: 500;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu li .di-view {
+        font-size: 11px;
+        color: #5d58f5;
+        font-weight: ;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .cd1 {
+        border-right: 1px solid #504d56;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .rwd2 {
+        margin-top: 50px;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .rwd3 .btn2 {
+        margin-left: 180px;
+        background-color: #5865f5;
+        width: 300px;
+        border-radius: 0;
+        font-size: 13px;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .rwd3 .btn3 {
+        background-color: #5865f5;
+        width: 300px;
+        border-radius: 0;
+        font-size: 13px;
+    }
+
+    .navbar .dropdown .btn1, .navbar .dropup .btn {
+        font-size: 11px;
+    }
+    .navbar .dropdown .btn1 {
+        background-color: #504d56;
+        color: white;
+        border-radius: 0;
+        height: 32px;
+    }
+
+    .navbar .dds .btn1:hover {
+        background-color: #5865f5 ;
+    }
+
+    .navbar .dropup .btn {
+        background-color: #2f353d;
+        color: white;
+        border-radius: 0;
+        padding: 4px 12px;
+        margin-left: 2px;
+        height: 32px;
+        text-align: center;
+    }
+
+    .hD {
+        background-color: #F1F5F9;
+    }
+
+    .hD .hd1 {
+        margin-top: 10px;
+    }
+
+    .hD .hd1 .row .col-1 .btn {
+        background-color: #504d56;
+    }
+
+    .hD .hd1 .rw2 p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    .hD .hd1 .rw2 .c2 .rwc2 {
+        margin-top: 30px;
+    }
+
+    .hD .hd1 .rw3 {
+        font-size: 12px;
+    }
+
+    .hD .hd1 .rw3 a {
+        text-decoration: none;
+    }
+
+
+
+    /* Jumbotron */
+    .bg-image {
+        background-image: url("https://www.sony.co.id/image/bee27a7c0a264611ea4412301d60fbe8?fmt=pjpeg&wid=4000&qlt=43") !important;
+        background-size: cover;
+        background-position: center;
+        height: 640px;
+    }
+
+    .bg-image p{
+        font-weight: 500;
+        font-size: 15px;
+        margin-left: 80px;
+        text-align: left;
+    }
+
+    .bg-image h1 {
+        font-weight: 380;
+        font-size: 48px;
+        margin-left: 80px;
+        text-align: left;
+    }
+
+    .bg-image .btn {
+        background-color: #5865f5;
+        font-weight: 200;
+        font-size: 13px;
+        border-radius: 0;
+        border-color: #5865f5 ;
+        margin-left: -180px;
+    }
+
+    /* Carousel */
+    .slider {
+        margin-top: 30px;
+    }
+
+    .slider .title {
+        text-transform: uppercase;
+        font-weight: 650;
+        font-size: 22px;
+    }
+    /* Grid */
+    .product-grid {
+        margin-top: 80px;
+        box-sizing: border-box;
+
+    }
+
+    .product-grid .title{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .product-grid .c1 {
+        height: 300px;
+        width: 550px;
+        background-color: #516B86;
+    }
+
+    .product-grid .c1 .latest-product {
+        text-align: center;
+        color: white;
+        font-size: 26px;
+    }
+
+    .product-grid .c2 {
+        height: 140px;
+        width: 200px;
+        margin-left: 175px;
+        background-color: #F1F5F9 ; 
+    }
+
+    .product-grid .c2 .product-name p{
+        margin: -10px -18px;
+        font-weight: 340;
+        font-size: 13px;
+    }
+
+    .product-grid .c2 .product-model p{
+        margin-top: 10px;
+        margin-left: -18px;
+        color: #747481;
+        font-size: 11px;
+    }
+
+    .product-grid .c2 .product-rating {
+        margin-left: -18px;
+    }
+
+    .product-grid .c2 .product-price p{
+        margin-left: -18px;
+        color: #747481;
+        font-size: 15px;
+    }
+
+    .product-grid .c3 {
+        height: 460px;
+        width: 420px;
+        background-color: #F1F5F9 ;
+    }
+
+    .product-grid .c3 .card-body {
+        margin-top: 50px;
+        margin-left: -18px;
+    }
+
+    .product-grid .rw2 {
+        margin-top: -140px;
+        
+    }
+
+    .product-grid .c1-2, .product-grid .c1-3, .product-grid .c1-4 {
+        height: 140px;
+        width: 200px;
+        background-color: #F1F5F9 ;
+    }
+
+    .product-grid .c1-2 .card-body, .product-grid .c1-3 .card-body, .product-grid .c1-4 .card-body{
+        margin-left: -18px;
+    }
+    .product-grid .c1-3 {
+        margin-left: -25px;
+    }
+    .product-grid .c1-4 {
+        margin-left: -45px;
+    }
+
+    .product-grid .c1-2 .product-name p{
+        font-weight: 340;
+        font-size: 13px;
+    }
+
+    .product-grid .c1-3 .product-name p{
+        font-weight: 340;
+        font-size: 13px;
+    }
+
+    .product-grid .c1-4 .product-name p{
+        font-weight: 340;
+        font-size: 13px;
+    }
+
+    .product-grid .c1-2 .product-model p{
+        color: #747481;
+        font-size: 11px;
+    }
+
+    .product-grid .c1-3 .product-model p{
+        color: #747481;
+        font-size: 11px;
+    }
+
+    .product-grid .c1-4 .product-model p{
+        color: #747481;
+        font-size: 11px;
+    }
+
+    .product-grid .c1-2 .product-price p{
+        color: #747481;
+        font-size: 15px;
+    }
+
+    .product-grid .c1-3 .product-price p{
+        color: #747481;
+        font-size: 15px;
+    }
+
+    .product-grid .c1-4 .product-price p{
+        color: #747481;
+        font-size: 15px;
+    }
+
+    /* Card */
+
+    .product-card {
+        background-color: #F1F5F9 ;
+        height: 650px;
+    }
+    .product-card .c{
+        margin-top: 250px;
+        
+    }
+
+    .product-card .c .title {
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+
+    .product-card .card {
+        margin-top: 25px;
+        
+        height: 420px;
+        width: 380px;
+        background-color: #212530;
+    }
+    
+    .product-card .c2 {
+        margin-left: 20px;
+    }
+    .product-card .c3 {
+        margin-left: 35px;
+    }
+
+    .product-card .c1 h5 {
+        color: #A99FA9;
+    }
+
+    .product-card .c2 h5 {
+        color: #A99FA9;
+    }
+
+    .product-card .c3 h5 {
+        color: #A99FA9;
+    }
+
+    .product-card .card .card-body {
+        font-size: 13px;
+        padding-left: 40px;
+    }
+    .product-card .c1 p {
+        color: white;
+        margin-top: 90px;
+    }
+
+    .product-card .c2 p {
+        color: white;
+        margin-top: 65px;
+    }
+
+    .product-card .c3 p {
+        color: white;
+        margin-top: 90px;
+    }
+
+    /* card recently view */
+
+    .recently-view {
+        margin-top: 100px;
+    }
+    
+    .recently-view .title {
+        text-transform: uppercase;
+    }
+
+    .recently-view .card {
+        height: 140px;
+        width: 200px;
+        background-color: #F1F5F9 ;
+    }
+
+    .recently-view .card .card-body {
+        margin-left: -18px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    /* footer */
+    .footer {
+        margin-top: 200px;
+        background-color: #1f2024;
+        height: 520px;
+    }
+        
+    .footer .title-search, .footer .title-news {
+        padding-top: 50px;
+        color: #878792;
+    }
+
+
+    .footer .title {
+        color: #878792;
+        margin-left: 32px;
+        padding-top: 50px;
+    }
+
+    .footer .col-3 .d-flex {
+        border: 1px solid #878792;
+    }
+
+    .footer .col-3 .d-flex .form-control {
+        background-color: #1f2024 ;
+        border: none;
+    }
+
+    .footer .col-3 .d-flex .btn {
+        height: 25px;
+        width: 150px;
+        text-align: center;
+        margin-top: 5px;
+        margin-right: 10px;
+        border-radius: 0;
+    }
+
+    .footer .col-3 .d-flex .btn p {
+        margin-top: -2px;
+        font-size: 11px;
+    }
+
+    .footer .row .col-3 ul li {
+        list-style: none; 
+    }
+
+    .footer .row .col-3 ul li a, .footer .row .col-3 a{
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .footer .col-3 .locations {
+        color: white;
+        font-size: 13px;
+    }
+
+    .footer .rw2 {
+        margin-top: 80px;
+    } 
+
+    .footer .rw2 .btn1 {
+        height: 40px;
+        width: 240px;
+        border-radius: 0;
+        background-color: #3C3C42;
+    }
+
+    .footer .rw2 .btn1 p {
+        text-align: left;
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .footer .rw2 .c2 .dropdown {
+        margin-left: 5px ;
+    }
+
+    .footer .rw2 .btn2 {
+        background-color: #3C3C42;
+        border-radius: 0;
+        width: 60px;
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .footer .rw2 .c3 {
+        margin-left: -100px;
+    }
+
+    .footer .rw2 .c3 ul a{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .footer .rw2 .c3 .btn-group {
+        margin-left: 15px;
+        
+    }
+
+    .footer .rw2 .c3 .btn-group .btn {
+        background-color: #3C3C42;
+        border-color: #3c3c42; 
+        border-radius: 0;
+        margin-left: 3px;
+    }
+
+    .footer .rw3 .footer-copyright {
+        color: #878792;
+        font-size: 10px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+
+    .footer .rw4 {
+        margin-left: -49px;
+        margin-top: -15px;
+    }
+
+    .footer .rw4 ul a{
+        text-decoration: none;
+        list-style: none;
+        margin-left: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        
+    }
+
+
+}

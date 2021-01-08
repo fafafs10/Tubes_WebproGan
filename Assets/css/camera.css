@@ -1,0 +1,337 @@
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+    /* Navbar */
+    .navbar { 
+        background-color: black;
+        color: white !important;
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+
+    .navbar .dropdown .nav-link:hover {
+        border-bottom: 3px solid blue;
+        margin-bottom: -3px;
+    }
+
+    .navbar .navbar-nav .nav-item:hover .dropdown-menu, .navbar .collapse .nav-item:hover .dropdown-menu {
+        display: block;
+  }
+
+    .nav-link {
+        margin-right: 2px;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .dropdown-item {
+        font-size: 11px;
+        color: #616561;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu li .di-title {
+        font-size: 13px;
+        color: #5d58f5;
+        font-weight: 500;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu li .di-view {
+        font-size: 11px;
+        color: #5d58f5;
+        font-weight: ;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .cd1 {
+        border-right: 1px solid #504d56;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .rwd2 {
+        margin-top: 50px;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .rwd3 .btn2 {
+        margin-left: 180px;
+        background-color: #5865f5;
+        width: 300px;
+        border-radius: 0;
+        font-size: 13px;
+    }
+
+    .navbar .collapse .nav-item .dropdown-menu .rwd3 .btn3 {
+        background-color: #5865f5;
+        width: 300px;
+        border-radius: 0;
+        font-size: 13px;
+    }
+
+    .navbar .dropdown .btn1, .navbar .dropup .btn {
+        font-size: 11px;
+    }
+    .navbar .dropdown .btn1 {
+        background-color: #504d56;
+        color: white;
+        border-radius: 0;
+        height: 32px;
+    }
+
+    .navbar .dds .btn1:hover {
+        background-color: #5865f5 ;
+    }
+
+    .navbar .dropup .btn {
+        background-color: #2f353d;
+        color: white;
+        border-radius: 0;
+        padding: 4px 12px;
+        margin-left: 2px;
+        height: 32px;
+        text-align: center;
+    }
+
+    .hD {
+        background-color: #F1F5F9;
+    }
+
+    .hD .hd1 {
+        margin-top: 10px;
+    }
+
+    .hD .hd1 .row .col-1 .btn {
+        background-color: #504d56;
+    }
+
+    .hD .hd1 .rw2 p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    .hD .hd1 .rw2 .c2 .rwc2 {
+        margin-top: 30px;
+    }
+
+    .hD .hd1 .rw3 {
+        font-size: 12px;
+    }
+
+    .hD .hd1 .rw3 a {
+        text-decoration: none;
+    }
+
+    /* Title */
+    .pn {
+        height: 75px;
+    }
+
+    h1 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    /* table product */
+    .table-product {
+        background-color: #f1f5f9;
+        padding: 20px 0;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        margin-top: 50px;
+    }
+
+    /* SLider */
+    .c-slider {
+        margin-top: 100px;
+    }
+
+    .c-slider .title {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    /* Card 1 */
+    .cc1 {
+        margin-top: 50px;
+    }
+
+    .cc1 .title {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    /* Card 2 */
+    .cc2 {
+        margin-top: 50px;
+    }
+
+    .cc2 .title {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    /* Card 3 */
+    .cc3 {
+        margin-top: 50px;
+    }
+
+    .cc3 .title {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    /* card recently view */
+
+    .recently-view {
+        margin-top: 100px;
+    }
+    
+    .recently-view .title {
+        text-transform: uppercase;
+    }
+
+    .recently-view .card {
+        height: 140px;
+        width: 200px;
+        background-color: #F1F5F9 ;
+    }
+
+    .recently-view .card .card-body {
+        margin-left: -18px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    /* footer */
+    .footer {
+        margin-top: 200px;
+        background-color: #1f2024;
+        height: 520px;
+    }
+        
+    .footer .title-search, .footer .title-news {
+        padding-top: 50px;
+        color: #878792;
+    }
+
+
+    .footer .title {
+        color: #878792;
+        margin-left: 32px;
+        padding-top: 50px;
+    }
+
+    .footer .col-3 .d-flex {
+        border: 1px solid #878792;
+    }
+
+    .footer .col-3 .d-flex .form-control {
+        background-color: #1f2024 ;
+        border: none;
+    }
+
+    .footer .col-3 .d-flex .btn {
+        height: 25px;
+        width: 150px;
+        text-align: center;
+        margin-top: 5px;
+        margin-right: 10px;
+        border-radius: 0;
+    }
+
+    .footer .col-3 .d-flex .btn p {
+        margin-top: -2px;
+        font-size: 11px;
+    }
+
+    .footer .row .col-3 ul li {
+        list-style: none; 
+    }
+
+    .footer .row .col-3 ul li a, .footer .row .col-3 a{
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .footer .col-3 .locations {
+        color: white;
+        font-size: 13px;
+    }
+
+    .footer .rw2 {
+        margin-top: 80px;
+    } 
+
+    .footer .rw2 .btn1 {
+        height: 40px;
+        width: 240px;
+        border-radius: 0;
+        background-color: #3C3C42;
+    }
+
+    .footer .rw2 .btn1 p {
+        text-align: left;
+        font-size: 11px;
+        margin-top: 3px;
+    }
+
+    .footer .rw2 .c2 .dropdown {
+        margin-left: 5px ;
+    }
+
+    .footer .rw2 .btn2 {
+        background-color: #3C3C42;
+        border-radius: 0;
+        width: 60px;
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .footer .rw2 .c3 {
+        margin-left: -100px;
+    }
+
+    .footer .rw2 .c3 ul a{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .footer .rw2 .c3 .btn-group {
+        margin-left: 15px;
+        
+    }
+
+    .footer .rw2 .c3 .btn-group .btn {
+        background-color: #3C3C42;
+        border-color: #3c3c42; 
+        border-radius: 0;
+        margin-left: 3px;
+    }
+
+    .footer .rw3 .footer-copyright {
+        color: #878792;
+        font-size: 10px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+
+    .footer .rw4 {
+        margin-left: -49px;
+        margin-top: -15px;
+    }
+
+    .footer .rw4 ul a{
+        text-decoration: none;
+        list-style: none;
+        margin-left: 5px;
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        
+    }
+
+}

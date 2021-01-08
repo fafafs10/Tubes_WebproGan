@@ -1,0 +1,55 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* jumbotron */
+    .jumbotron {
+        background-attachment: fixed;
+        background-image: url("https://web.sony-asia.com/sony_bgpage.jpg") !important;
+        height: 400px ;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* form */
+    .login-page .row {
+        background-color: white;
+        border: 1px solid;
+        width: 420px;
+        height: 450px;
+        margin-top: -250px;
+        margin-left: 450px;
+    }
+
+    .login-page .row .c1 {
+        margin-left: -50px;
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+
+    .login-page .row .c1 form{
+        margin-top: 15px;
+    }
+
+    .login-page .row .c1 .form-group {
+        margin-top: 15px;
+    }
+
+    .login-page .row .c1 .form-group input{
+        width: 380px;
+    }
+
+    .login-page .row .c1 .form-group label {
+        margin-bottom: 10px;
+    }
+
+    .login-page .row .c1 a, .login-page .row .c1 p{
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    .login-page .row .c1 .form-group .btn {
+        background-color: #5865f5 ;
+        width: 100px;
+        margin-right: -55px;
+    }
+    
+}
